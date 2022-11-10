@@ -1,0 +1,54 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card
+{
+    margin-top: 50px;
+    margin-left: 550px;
+    width: 380px;
+    height: 400px;
+    background-color: rgb(0, 72, 66, 0.825);
+    border-radius: 5px;
+}
+button
+{
+    margin: 20px 0 0 120px;
+    height: 30px;
+    
+    border-radius: 8px;
+    background-color: black;
+    width: 150px;
+    cursor: pointer;
+}
+.txt
+{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.lock
+{
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box
+{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 38px;
+    border-radius: 4px;
+    padding: 10px 0;
+}
+h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+p,h1,button,.box
+{
+    color: white;
+}
