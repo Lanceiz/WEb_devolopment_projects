@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+html {
+    font-size: 10px;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    margin-inline: auto;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+
+.logo img {
+    width: 6rem;
+}
+
+.left-side-navbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-items ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-items ul li {
+    font-size: 2rem;
+}
+
+.nav-items ul li a {
+    color: #676767;
+
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.buttons button {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #fff;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.6rem;
+    border: 1px solid #808080a4;
+    border-radius: 2rem;
+}
+
+.buttons button i {
+    font-size: 2.5rem;
+}
+
+button:last-child {
+    background-color: #2563EB;
+    color: #fff;
+    font-weight: 500;
+}
+
+button .fa-apple {
+    color: #fff;
+}
+
+main {
+    height: 100%;
+}
+
+.top-main-container {
+    height: 100%;
+}
+
+.inner-text {
+    height: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.upper-text span {
+    font-size: 2.5rem;
+}
+
+.heading h1 {
+    font-size: 7rem;
+    font-weight: 500;
+}
+.heading h1 span{
+    color: #2563EB;
+}
+.paragraph p {
+    font-size: 2rem;
+}
+
+.bottom-buttons {
+    padding: 5rem 0rem;
+}
+.bottom-buttons button{
+    background-color:  #0F172A ;
+}
+.bottom-buttons button .fa-chrome,.bottom-buttons button:first-child{
+    color: #fff;
+}
+.bottom-buttons button:last-child{
+    background-color: #fff;
+    color: #000;
+}
+.bottom-buttons button .fa-apple{
+    color: #2563EB;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-text span {
+    font-size: 2rem;
+}
+.bottom-text{
+    text-align: center;
+
+}
+.icon-bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.icon span {
+    font-size: 3rem;
+}
+
+.icon i {
+    font-size: 4rem;
+    margin-right: 1rem;
+}
+.bottom-text{
+    line-height: 4;
+}
